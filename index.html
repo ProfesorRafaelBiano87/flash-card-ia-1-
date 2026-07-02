@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberPassword - Gerador Futurista</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <main class="generator-box">
+            <h1><span class="tech-text">CYBER</span>_PASSWORD</h1>
+            <p class="subtitle">Segurança de nível lendário para seus dados.</p>
+
+            <div class="result-container">
+                <input type="text" id="password-display" readonly placeholder="Sua senha aparecerá aqui">
+                <button id="copy-btn" class="btn-icon" title="Copiar Senha">📋</button>
+            </div>
+
+            <div class="settings">
+                <div class="setting-item">
+                    <label for="length">Tamanho da Senha: <span id="length-val">12</span></label>
+                    <input type="range" id="length" min="6" max="30" value="12">
+                </div>
+
+                <div class="checkbox-group">
+                    <label class="cyber-check">
+                        <input type="checkbox" id="uppercase" checked>
+                        <span class="checkmark"></span> Letras Maiúsculas
+                    </label>
+                    <label class="cyber-check">
+                        <input type="checkbox" id="lowercase" checked>
+                        <span class="checkmark"></span> Letras Minúsculas
+                    </label>
+                    <label class="cyber-check">
+                        <input type="checkbox" id="numbers" checked>
+                        <span class="checkmark"></span> Números
+                    </label>
+                    <label class="cyber-check">
+                        <input type="checkbox" id="symbols" checked>
+                        <span class="checkmark"></span> Símbolos
+                    </label>
+                </div>
+            </div>
+
+            <button id="generate-btn" class="btn-primary">GERAR SENHA CRIPTOGRAFADA</button>
+        </main>
+
+        <aside class="hologram-box">
+            <div class="hologram-grid"></div>
+            <div class="player-display">
+                <img id="player-img" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM200N2RndGg0N2ptYmZ5ZzBqN3B6bWZ5N2ptYmZ5ZzBqN3B6bWY&rid=giphy.gif" alt="Jogador Lendário">
+                <div class="hologram-glow"></div>
+            </div>
+            <div class="player-info">
+                <h3 id="player-name">Ronaldinho Gaúcho</h3>
+                <p id="player-status">Status: Pronto para o Drible</p>
+            </div>
+        </aside>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
