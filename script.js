@@ -12,17 +12,17 @@ const legendaryPlayers = [
     {
         name: "Ronaldinho Gaúcho",
         status: "Driblando a invasão!",
-        gif: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=400&q=80" // Placeholder estável de futebol
+        gif: "https://www.youtube.com/shorts/m3gBdNR2ubY" // Placeholder estável de futebol
     },
     {
         name: "Pelé (O Rei)",
         status: "Segurança nível Lendário!",
-        gif: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=400&q=80" 
+        gif: "https://www.youtube.com/shorts/pyKsLOjfPdA" 
     },
     {
         name: "Neymar Jr",
         status: "Passinho Criptográfico!",
-        gif: "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=400&q=80"
+        gif: "https://www.youtube.com/shorts/ktO5IBpgZx8"
     }
 ];
 
